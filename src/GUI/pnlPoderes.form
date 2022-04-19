@@ -1,0 +1,2496 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="381" max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="cmbSuperHeroe" min="-2" pref="204" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="68" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="jScrollPane1" min="-2" pref="993" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="btnModificar" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="512" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="cmbSuperHeroe" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="27" max="32767" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="475" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                  <Component id="btnModificar" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <Properties>
+            <Property name="horizontalScrollBarPolicy" type="int" value="31"/>
+            <Property name="verticalScrollBarPolicy" type="int" value="22"/>
+            <Property name="requestFocusEnabled" type="boolean" value="false"/>
+          </Properties>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel2">
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel34" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt1" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel35" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt2" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel36" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt3" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel37" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt4" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel199" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt5" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel200" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt6" min="-2" pref="41" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel38" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt91" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel39" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt92" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel40" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt93" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel41" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt94" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel113" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt95" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel114" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt96" min="-2" pref="41" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel42" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt97" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel43" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt98" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel44" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt99" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel45" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt100" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel111" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt101" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel112" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt102" min="-2" pref="41" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel46" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt103" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel47" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt104" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel48" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt105" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel49" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt106" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel109" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt107" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel110" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt108" min="-2" pref="41" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel50" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt109" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel51" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt110" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel52" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt111" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel53" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt112" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel107" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt113" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel108" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt114" min="-2" pref="41" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel54" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt115" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel55" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt116" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel56" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt117" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel57" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt118" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel105" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt119" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel106" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt120" min="-2" pref="41" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel58" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt121" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel59" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt122" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel60" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt123" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel61" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt124" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel104" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt125" min="-2" pref="41" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel62" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt126" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel63" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt127" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel64" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt128" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel65" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt129" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel102" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt130" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel103" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt131" min="-2" pref="41" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel66" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt132" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel67" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt133" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel68" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt134" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel69" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt135" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel100" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt136" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel101" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt137" min="-2" pref="41" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel70" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt138" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel71" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt139" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel72" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt140" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel73" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt141" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel74" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt142" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel99" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt143" min="-2" pref="41" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel78" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt150" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel79" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt151" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel80" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt152" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel81" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt153" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel94" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt154" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel95" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt155" min="-2" pref="41" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel87" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt162" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jLabel86" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt163" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jLabel82" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt164" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel83" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt165" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel84" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt166" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel85" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt167" min="-2" pref="41" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel93" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt156" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jLabel92" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt157" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jLabel91" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt158" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel90" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt159" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel89" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt160" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel88" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt161" min="-2" pref="41" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel75" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt144" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel76" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt145" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel77" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt146" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel96" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt147" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel97" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt148" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel98" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt149" min="-2" pref="41" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel115" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt85" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel116" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt86" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel117" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt87" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel118" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt88" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel119" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt89" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel120" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt90" min="-2" pref="41" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel121" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt79" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel122" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt80" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel123" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt81" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel124" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt82" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel125" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt83" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel126" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt84" min="-2" pref="41" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel127" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt73" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel128" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt74" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel129" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt75" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel130" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt76" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel131" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt77" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel132" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt78" min="-2" pref="41" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel133" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt67" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel134" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt68" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel135" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt69" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel136" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt70" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel137" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt71" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel138" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt72" min="-2" pref="41" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel139" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt61" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel140" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt62" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel141" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt63" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel142" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt64" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel143" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt65" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel144" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt66" min="-2" pref="41" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel145" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt55" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel146" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt56" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel147" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt57" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel148" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt58" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel149" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt59" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel150" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt60" min="-2" pref="41" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel151" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt49" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel152" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt50" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel153" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt51" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel154" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt52" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel155" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt53" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel156" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt54" min="-2" pref="41" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel157" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt43" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel158" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt44" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel159" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt45" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel160" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt46" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel161" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt47" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel162" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt48" min="-2" pref="41" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel163" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt37" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel164" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt38" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel165" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt39" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel166" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt40" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel167" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt41" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel168" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt42" min="-2" pref="41" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel169" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt31" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel170" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt32" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel171" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt33" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel172" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt34" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel173" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt35" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel174" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt36" min="-2" pref="41" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel175" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt25" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel176" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt26" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel177" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt27" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel178" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt28" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel179" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt29" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel180" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt30" min="-2" pref="41" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel181" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt19" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel182" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt20" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel183" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt21" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel184" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt22" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel185" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt23" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel186" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt24" min="-2" pref="41" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel187" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt13" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel188" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt14" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel189" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt15" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel190" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt16" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel191" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt17" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel192" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt18" min="-2" pref="41" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel193" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt7" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel194" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt8" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel195" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt9" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel196" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt10" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel197" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt11" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel198" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txt12" min="-2" pref="41" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="47" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel34" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel35" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel36" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel37" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" alignment="3" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel199" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt5" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" alignment="3" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel200" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="txt6" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel193" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt7" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel194" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt8" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel195" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt9" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel196" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt10" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel197" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt11" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel198" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt12" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel187" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt13" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel188" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt14" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel189" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt15" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel190" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt16" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel191" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt17" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel192" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt18" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel181" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt19" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel182" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt20" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel183" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt21" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel184" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt22" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel185" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt23" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel186" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt24" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel175" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt25" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel176" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt26" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel177" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt27" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel178" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt28" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel179" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt29" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel180" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt30" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel169" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt31" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel170" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt32" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel171" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt33" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel172" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt34" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel173" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt35" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel174" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt36" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel163" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt37" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel164" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt38" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel165" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt39" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel166" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt40" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel167" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt41" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel168" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt42" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel157" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt43" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel158" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt44" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel159" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt45" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel160" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt46" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel161" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt47" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel162" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt48" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel151" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt49" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel152" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt50" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel153" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt51" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel154" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt52" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel155" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt53" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel156" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt54" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel145" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt55" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel146" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt56" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel147" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt57" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel148" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt58" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel149" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt59" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel150" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt60" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel139" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt61" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel140" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt62" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel141" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt63" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel142" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt64" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel143" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt65" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel144" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt66" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel133" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt67" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel134" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt68" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel135" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt69" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel136" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt70" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel137" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt71" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel138" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt72" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel127" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt73" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel128" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt74" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel129" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt75" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel130" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt76" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel131" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt77" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel132" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt78" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel121" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt79" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel122" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt80" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel123" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt81" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel124" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt82" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel125" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt83" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel126" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt84" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel115" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt85" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel116" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt86" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel117" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt87" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel118" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt88" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel119" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt89" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel120" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt90" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel38" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt91" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel39" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt92" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel40" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt93" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel41" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt94" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel113" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt95" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel114" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt96" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel112" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt102" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel111" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt101" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel42" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt97" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel43" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt98" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel44" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt99" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel45" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt100" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel110" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt108" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel109" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt107" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel46" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt103" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel47" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt104" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel48" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt105" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel49" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt106" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel108" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt114" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel107" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt113" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel50" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt109" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel51" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt110" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel52" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt111" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel53" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt112" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel106" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt120" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel105" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt119" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel54" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt115" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel55" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt116" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel56" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt117" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel57" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt118" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel104" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt125" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel58" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt121" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel59" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt122" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel60" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt123" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel61" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt124" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel103" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt131" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel102" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt130" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel62" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt126" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel63" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt127" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel64" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt128" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel65" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt129" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel101" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt137" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel100" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt136" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel66" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt132" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel67" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt133" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel68" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt134" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel69" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt135" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel99" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt143" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel74" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt142" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel70" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt138" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel71" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt139" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel72" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt140" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel73" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt141" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel98" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt149" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel97" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt148" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel96" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt147" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel75" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt144" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel76" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt145" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel77" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt146" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel95" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt155" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel94" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt154" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel78" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt150" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel79" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt151" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel80" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt152" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel81" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt153" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel91" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt158" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel90" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt159" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel89" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt160" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel88" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt161" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel92" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt157" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel93" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt156" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel82" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt164" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel83" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt165" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel84" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt166" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel85" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt167" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel86" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt163" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel87" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt162" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="43" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel34">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="agility:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt1">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel35">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="accelerated_healing:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt2">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel36">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="lantern_power_ring:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt3">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel37">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="dimensional_awareness:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt4">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel38">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="adaptation:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt91">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel39">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="gliding:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt92">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel40">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="power_suit:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt93">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel41">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="mind_blast:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt94">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel42">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="regeneration:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt97">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel43">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="light_control:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt98">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel44">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="echolocation:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt99">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel45">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="levitation:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt100">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel46">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="energy_manipulation:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt103">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel47">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="heat_resistance:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt104">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel48">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="natural_weapons:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt105">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel49">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="time_travel:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt106">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel50">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="thirstokinesis:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt109">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel51">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="hair_manipulation:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt110">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel52">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="illumination:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt111">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel53">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="omnipotent:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt112">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel54">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="power_cosmic:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt115">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel55">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="biokinesis:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt116">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel56">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="water_control:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt117">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel57">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="radiation_immunity:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt118">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel58">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="spatial_awareness:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt121">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel59">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="energy_resistance:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt122">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel60">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="telepathy_resistance:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt123">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel61">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="molecular_combustion:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt124">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel62">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="portal_creation:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt126">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel63">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="magnetism:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt127">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel64">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="mind_control_resistance:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt128">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel65">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="plant_control:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt129">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel66">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="time_manipulation:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt132">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel67">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="enhanced_touch:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt133">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel68">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="magic_resistance:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt134">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel69">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="invisibility:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt135">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel70">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="intuitive_aptitude:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt138">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel71">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="vision_microscopic:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt139">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel72">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="melting:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt140">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel73">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="wind_control:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt141">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel75">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="vision_night:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt144">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel76">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="vision_infrared:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt145">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel77">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="grim_reaping:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt146">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel78">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="terrakinesis:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt150">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel79">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="vision_heat:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt151">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel80">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="vitakinesis:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt152">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel81">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="radar_sense:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt153">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel82">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="molecular_dissipation:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt164">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel83">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="vision_cryo:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt165">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel84">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="omnipresent:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt166">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel85">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="omniscient:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt167">
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt163">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel86">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="phoenix_force:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt162">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel87">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="speed_force:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt161">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel88">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="symbiote_costume:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt160">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel89">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="odin_force:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt159">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel90">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="reality_warping:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt158">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel91">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="web_creation:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt157">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel92">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="vision_thermal:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt156">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel93">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="vision_x_ray:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt154">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel94">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="qwardian_power_ring:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt155">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel95">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="weather_control:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt147">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel96">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="matter_absorption:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt148">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel97">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="the_force:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt149">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel98">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="resurrection:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel74">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="super_breath:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt142">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel99">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="wallcrawling:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt143">
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt136">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel100">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="sub_mariner:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt137">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel101">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="radiation_absorption:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel102">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="sonar:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt130">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel103">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="sonic_scream:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt131">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel104">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="omnilingualism:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt125">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel105">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="vision_telescopic:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt119">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel106">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="toxin_and_disease_resistance:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt120">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel107">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="cloaking:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt113">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel108">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="changing_armor:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt114">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel109">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="enhanced_smell:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt107">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel110">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="illusions:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt108">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel111">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="toxin_and_disease_control:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt101">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel112">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="banish:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt102">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel113">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="probability_manipulation:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt95">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel114">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="gravity_control:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt96">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel115">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="animal_control:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt85">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel116">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="natural_armor:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt86">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel117">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="intangibility:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt87">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel118">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="enhanced_sight:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt88">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel119">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="molecular_manipulation:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt89">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel120">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="heat_generation:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt90">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel121">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="fire_resistance:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt79">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel122">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="power_absorption:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt80">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel123">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="enhanced_hearing:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt81">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel124">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="nova_force:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt82">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel125">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="insanity:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt83">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel126">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="hypnokinesis:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt84">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel127">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="technopath_cyberpath:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt73">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel128">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="photographic_reflexes:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt74">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel129">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="seismic_power:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt75">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel130">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="animation:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt76">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel131">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="precognition:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt77">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel132">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="mind_control:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt78">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel133">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="power_nullifier:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt67">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel134">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="radiation_control:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt68">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel135">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="psionic_powers:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt69">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel136">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="elasticity:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt70">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel137">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="substance_secretion:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt71">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel138">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="elemental_transmogrification:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt72">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel139">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="invulnerability:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt61">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel140">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="energy_constructs:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt62">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel141">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="force_fields:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt63">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel142">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="self_sustenance:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt64">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel143">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="anti_gravity:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt65">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel144">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="empathy:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt66">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel145">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="electrical_transport:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt55">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel146">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="fire_control:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt56">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel147">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="projection:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt57">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel148">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="summoning:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt58">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel149">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="enhanced_memory:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt59">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel150">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="reflexes:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt60">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel151">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="peak_human_condition:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt49">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel152">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="immortality:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt50">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel153">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="camouflage:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt51">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel154">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="element_control:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt52">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel155">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="phasing:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt53">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel156">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="astral_projection:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt54">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel157">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="hyperkinesis:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt43">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel158">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="jump:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt44">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel159">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="clairvoyance:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt45">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel160">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="dimensional_travel:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt46">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel161">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="power_sense:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt47">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel162">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="shapeshifting:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt48">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel163">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="death_touch:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt37">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel164">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="teleportation:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt38">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel165">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="enhanced_senses:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt39">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel166">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="telekinesis:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt40">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel167">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="energy_beams:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt41">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel168">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="magic:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt42">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel169">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="super_speed:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt31">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel170">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="possession:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt32">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel171">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="animal_powers:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt33">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel172">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="weapon_based_powers:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt34">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel173">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="electrokinesis:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt35">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel174">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="darkforce_manipulation:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt36">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel175">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="density_control:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt25">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel176">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="stamina:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt26">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel177">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="astral_travel:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt27">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel178">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="audio_control:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt28">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel179">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="dexterity:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt29">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel180">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="omnitrix:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt30">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel181">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="cryokinesis:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt19">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel182">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="telepathy:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt20">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel183">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="energy_armor:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt21">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel184">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="energy_blasts:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt22">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel185">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="duplication:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt23">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel186">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="size_changing:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt24">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel187">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="weapons_master:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt13">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel188">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="power_augmentation:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt14">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel189">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="animal_attributes:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt15">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel190">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="longevity:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt16">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel191">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="intelligence:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt17">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel192">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="super_strength:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt18">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel193">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="stealth:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt7">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel194">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="energy_absorption:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt8">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel195">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="flight:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt9">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel196">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="danger_sense:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt10">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel197">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="underwater_breathing:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt11">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel198">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="marksmanship:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt12">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel199">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="cold_resistance:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt5">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel200">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="durability:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt6">
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JComboBox" name="cmbSuperHeroe">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="0"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="cmbSuperHeroeItemStateChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Buscar Superheroe:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnModificar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Editar"/>
+            <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[78, 32]"/>
+            </Property>
+            <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[78, 32]"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnModificarActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
